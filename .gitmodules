@@ -1,3 +1,6 @@
 [submodule "HorizonComp"]
 	path = HorizonComp
 	url = https://github.com/tugaykoyunkaya/HorizonComp
+[submodule "NowComp"]
+	path = NowComp
+	url = ./NowComp
