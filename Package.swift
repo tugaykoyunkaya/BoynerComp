@@ -11,9 +11,6 @@ let package = Package(
         .library(
             name: "BoynerComp",
             targets: ["BoynerComp"]),
-        .library(
-            name: "HorizonComp",
-            targets: ["HorizonComp"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,8 +18,5 @@ let package = Package(
         .target(
             name: "BoynerComp",
             path: "Sources/MyLibrary"),
-        .target(
-            name: "HorizonComp",
-            path: "HorizonComp"),
     ]
 )
